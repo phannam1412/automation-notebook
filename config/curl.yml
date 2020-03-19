@@ -1,0 +1,2 @@
+view my ip location info:
+  access url: GET https://demo.ip-api.com/json/42.112.80.108?fields=33288191&lang=en

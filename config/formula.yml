@@ -1,0 +1,11 @@
+ping google:
+    - run linux command: ping google.com
+fix display resolution to have mode 1366 x 768:
+    - run bash script:
+        content: |
+            #!/bin/bash
+            xrandr --newmode 1360x768_60.00   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync
+            xrandr --addmode eDP-1-1 1360x768_60.00
+            xrandr --output eDP-1-1 --mode 1360x768_60.00
+view vnexpress:
+    - open url: https://vnexpress.net

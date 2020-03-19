@@ -1,0 +1,5 @@
+maximum stdout characters to be stored for a process: 100000
+server port: 1234
+command suggestion cache timeout in seconds: 10
+reload command suggestion interval in seconds: 5
+go root: /usr/local/bin/go

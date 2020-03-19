@@ -1,0 +1,6 @@
+help db:
+  database name: help_db
+  user: root
+  pass: root
+  port: 3307
+  docker container: help-db

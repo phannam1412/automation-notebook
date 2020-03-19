@@ -1,0 +1,6 @@
+portainer:
+  container name: portainer
+  create container from docker run command: docker run --name portainer -p 9000:9000 -v "/var/run/docker.sock:/var/run/docker.sock" portainer/portainer
+help db:
+  container name: help-db
+  create container from docker run command: docker run --name=help-db -p 3307:3306 -e MYSQL_ROOT_PASSWORD=root mysql:5.7.16
